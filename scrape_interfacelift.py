@@ -2,7 +2,6 @@ import argparse
 from pathlib import Path
 import requests
 import re
-import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
